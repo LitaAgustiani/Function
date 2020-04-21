@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+//membuat function tanpa parameter dengan nilai kembalian
+void cetakInfo ()
+{
+	cout << "Ini adalah function tanpa parameter" << endl;
+	cout << "Function ini dengan nilai return" << endl;
+}
+
+int function ()
+{
+	int a = 55, b = 11;
+	return a / b;
+}
+
+int main () \
+{
+	cetakInfo ();
+	cout << "Hasil Pembagian = " << function ();
+}

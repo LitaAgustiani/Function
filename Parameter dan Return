@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+//membuat function dengan parameter dan nilai kembalian
+void cetakInfo ()
+{
+	cout << "Ini adalah function dengan parameter" << endl;
+	cout << "Function ini dengan nilai return" << endl;
+}
+
+int perkalian(int x, int y)
+{
+	return  x * y;
+}
+
+int main ()
+{
+	cetakInfo ();
+	cout << "Hasil perkalian = " << perkalian(77, 88);
+	return 0;
+}

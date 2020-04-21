@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+//membuat function parameter tanpa nilai kembalian
+void hasilKurang (int angka1, int angka2)
+{
+	cout << "Ini adalah function parameter"<< endl;
+	cout << "Function ini tanpa nilai return"<< endl;
+	cout << "Hasil pengurangan = "<< (angka1 - angka2) << endl;
+}
+
+int main ()
+{
+	hasilKurang (275, 100);
+}

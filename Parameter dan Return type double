@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+//membuat function parameter dan nilai kembalian type double
+void function ()
+{
+	cout << "Ini adalah function dengan parameter type double" << endl;
+	cout << "Function ini dengan nilai return type double" << endl;
+}
+
+double pertambahan(double m, double n)
+{
+	return  m + n;
+}
+
+int main ()
+{
+	function ();
+	cout << "Hasil pertambahan = " << pertambahan(123.456, 77.88);
+	return 0;
+}

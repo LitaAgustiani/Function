@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//membuat function tanpa parameter dan tanpa nilai kembalian
+void function ()
+{
+	cout << "Ini adalah function tanpa parameter" << endl;
+	cout << "Function ini tanpa nilai return" << endl;
+}
+
+int main ()
+{
+	function ();
+}
